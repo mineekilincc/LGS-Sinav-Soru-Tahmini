@@ -1,0 +1,133 @@
+NORMALIZASYON UYARILARI
+================================================================================
+
+Soru ID: LGSTR-2024-1-A-10
+Konu: Paragraf / Anlatım Biçimi
+Soru: Bu metnin türüyle ilgili aşağıdakilerden hangisi doğrudur?...
+  ⚠️ UYARI: 'Anlatım Biçimi' etiketli ama uygun stem pattern yok
+
+Soru ID: LGSTR-2025-1-A-03
+Konu: Paragraf / Ana Düşünce
+Soru: “Birçok türde yazdım ama kendimi en iyi ifade ettiğim tür şiir oldu.” diyen bir sanatçı için aşağıda...
+  ⚠️ UYARI: 'Ana Düşünce' etiketli ama uygun stem pattern yok
+
+Soru ID: LGSTR-2025-1-A-07
+Konu: Paragraf / Ana Düşünce
+Soru: Aşağıdakilerin hangisinde bu dizelerdeki söz sanatlarından herhangi biri kullanılmamıştır?...
+  ⚠️ UYARI: 'Ana Düşünce' etiketli ama uygun stem pattern yok
+
+Soru ID: LGSTR-2025-1-A-10
+Konu: Paragraf / Ana Düşünce
+Soru: Bu metinde sözü edilen yazarın vurgulanan özelliği aşağıdakilerden hangisidir?...
+  ⚠️ UYARI: 'Ana Düşünce' etiketli ama uygun stem pattern yok
+
+Soru ID: LGSTR-2025-1-A-11
+Konu: Paragraf / Ana Düşünce
+Soru: Bu metindeki kahramanın duygu durumu aşağıdakilerin hangisinde vardır?...
+  ⚠️ UYARI: 'Ana Düşünce' etiketli ama uygun stem pattern yok
+
+Soru ID: LGSTR-2023-1-A-03
+Konu: Cümlede Anlam / Ana Düşünce
+Soru: Altı çizili cümlenin bu metne kattığı anlam aşağıdakilerden hangisidir?...
+  ⚠️ UYARI: 'Ana Düşünce' etiketli ama uygun stem pattern yok
+
+Soru ID: LGSTR-2023-1-A-04
+Konu: Paragraf / Ana Düşünce
+Soru: Bu parçadaki altı çizili ifadeyle aşağıdakilerden hangisine gönderme yapılmıştır?...
+  ⚠️ UYARI: 'Ana Düşünce' etiketli ama uygun stem pattern yok
+
+Soru ID: LGSTR-2023-1-A-09
+Konu: Paragraf / Ana Düşünce
+Soru: Bu metne göre, aşağıdakilerden hangisi yazarın “ön sözler” ile ilgili görüşlerinden biri değildir?...
+  ⚠️ UYARI: 'Ana Düşünce' etiketli ama uygun stem pattern yok
+
+Soru ID: LGSTR-2023-1-A-10
+Konu: Paragraf / Ana Düşünce
+Soru: Bu metinde aşağıdaki düşünceyi geliştirme yollarından hangileri kullanılmıştır?...
+  ⚠️ UYARI: 'Ana Düşünce' etiketli ama uygun stem pattern yok
+
+Soru ID: LGSTR-2023-1-A-11
+Konu: Paragraf / Ana Düşünce
+Soru: Bu metinle ilgili aşağıdakilerden hangisi söylenemez?...
+  ⚠️ UYARI: 'Ana Düşünce' etiketli ama uygun stem pattern yok
+
+Soru ID: LGSTR-2023-1-A-12
+Konu: Paragraf / Ana Düşünce
+Soru: Bu parçada numaralanmış cümlelerin hangisinden sonra “Bir yerde akmadan bekleyen suyu değil akıp gid...
+  ⚠️ UYARI: 'Ana Düşünce' etiketli ama uygun stem pattern yok
+
+Soru ID: LGSTR-2023-1-A-13
+Konu: Paragraf / Ana Düşünce
+Soru: Bu parça aşağıdakilerin hangisiyle devam ettirilirse öyküleyici bir metne dönüşür?...
+  ⚠️ UYARI: 'Ana Düşünce' etiketli ama uygun stem pattern yok
+
+Soru ID: LGSTR-2022-1-A-01
+Konu: Cümlede Anlam / Ana Düşünce
+Soru: Aşağıdakilerin hangisinde altı çizili söz cümleye “belli bir sıra gözetmeksizin” anlamı katmıştır?...
+  ⚠️ UYARI: 'Ana Düşünce' etiketli ama uygun stem pattern yok
+
+Soru ID: LGSTR-2022-1-A-04
+Konu: Paragraf / Ana Düşünce
+Soru: Bu metindeki numaralanmış cümlelerden hangisi düşüncenin akışını bozmaktadır?...
+  ⚠️ UYARI: 'Ana Düşünce' etiketli ama uygun stem pattern yok
+
+Soru ID: LGSTR-2022-1-A-08
+Konu: Paragraf / Ana Düşünce
+Soru: Bu parça aşağıdaki metin türlerinden hangisine örnek olabilir?...
+  ⚠️ UYARI: 'Ana Düşünce' etiketli ama uygun stem pattern yok
+
+Soru ID: LGSTR-2022-1-A-13
+Konu: Cümlede Anlam / Ana Düşünce
+Soru: Aşağıdakilerden hangisi anlamca bu cümleye en yakındır?...
+  ⚠️ UYARI: 'Ana Düşünce' etiketli ama uygun stem pattern yok
+
+Soru ID: LGSTR-2020-1-A-08
+Konu: Paragraf / Ana Düşünce
+Soru: Numaralanmış cümlelerle anlamlı bir metin oluşturulduğunda hangisi dışarıda kalır?...
+  ⚠️ UYARI: 'Ana Düşünce' etiketli ama uygun stem pattern yok
+
+Soru ID: LGSTR-2020-1-A-09
+Konu: Paragraf / Ana Düşünce
+Soru: Aşağıdaki metinlerden hangisi bu soruya verilmiş bir yanıt olamaz?...
+  ⚠️ UYARI: 'Ana Düşünce' etiketli ama uygun stem pattern yok
+
+Soru ID: LGSTR-2020-1-A-12
+Konu: Paragraf / Ana Düşünce
+Soru: Bu medya metninin yazılış amacı aşağıdakilerden hangisidir?...
+  ⚠️ UYARI: 'Ana Düşünce' etiketli ama uygun stem pattern yok
+
+Soru ID: LGSTR-2020-1-A-13
+Konu: Paragraf / Ana Düşünce
+Soru: Bu bilgilere göre aşağıdakilerden hangisi kesin olarak söylenir?...
+  ⚠️ UYARI: 'Ana Düşünce' etiketli ama uygun stem pattern yok
+
+Soru ID: LGSTR-2021-1-A-01
+Konu: Paragraf / Ana Düşünce
+Soru: “Vurmak” sözcüğü aşağıdakilerin hangisinde “olumsuz yönde etkilemek” anlamında kullanılmıştır?...
+  ⚠️ UYARI: 'Ana Düşünce' etiketli ama uygun stem pattern yok
+
+Soru ID: LGSTR-2021-1-A-02
+Konu: Cümlede Anlam / Ana Düşünce
+Soru: Altı çizili söz öbeğinin bu cümleye kattığı anlam aşağıdakilerden hangisi olamaz?...
+  ⚠️ UYARI: 'Ana Düşünce' etiketli ama uygun stem pattern yok
+
+Soru ID: LGSTR-2021-1-A-07
+Konu: Paragraf / Ana Düşünce
+Soru: Bu konuşmaya göre Selvi'nin içinde bulunduğu durumu aşağıdakilerden hangisi en iyi tanımlamaktadır?...
+  ⚠️ UYARI: 'Ana Düşünce' etiketli ama uygun stem pattern yok
+
+Soru ID: LGSTR-2021-1-A-11
+Konu: Paragraf / Ana Düşünce
+Soru: Bu metinde vurgulanan düşünce aşağıdakilerden hangisidir?...
+  ⚠️ UYARI: 'Ana Düşünce' etiketli ama uygun stem pattern yok
+
+Soru ID: LGSTR-2021-1-A-15
+Konu: Paragraf / Ana Düşünce
+Soru: Bu metnin konusu aşağıdakilerden hangisidir?...
+  ⚠️ UYARI: 'Ana Düşünce' etiketli ama uygun stem pattern yok
+
+Soru ID: LGSTR-2021-1-A-17
+Konu: Paragraf / Ana Düşünce
+Soru: Bu bilgilere göre aşağıdakilerden hangisi doğrudur?...
+  ⚠️ UYARI: 'Ana Düşünce' etiketli ama uygun stem pattern yok
+

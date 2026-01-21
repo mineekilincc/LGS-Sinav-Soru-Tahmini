@@ -1,0 +1,176 @@
+# LGS SORU TİPİ KURALLARI - Kesin Sözleşme
+# Bu dosya modelin NE üretmesi gerektiğini tanımlar
+# RAG docs ise NASIL üretece ğini anlatır
+
+# ============================================
+# PARAGRAF SORULARI
+# ============================================
+
+paragraf_ana_dusunce:
+  topic_family: "Paragraf"
+  alt_konu: "Ana Düşünce"
+  text_required: true
+  min_words: 120
+  max_words: 220
+  highlight_required: false
+  numbered_sentences: false
+  allowed_question_roots:
+    - "Bu parçanın ana düşüncesi aşağıdakilerden hangisidir?"
+    - "Bu parçadan çıkarılabilecek ana yargı hangisidir?"
+    - "Yazarın bu parça ile vermek istediği ileti nedir?"
+
+paragraf_baslik_bulma:
+  topic_family: "Paragraf"
+  alt_konu: "Başlık Bulma"
+  text_required: true
+  min_words: 120
+  max_words: 220
+  highlight_required: false
+  numbered_sentences: false
+  allowed_question_roots:
+    - "Bu parçaya en uygun başlık aşağıdakilerden hangisidir?"
+    - "Bu parçanın başlığı ne olabilir?"
+
+paragraf_oznel_nesnel:
+  topic_family: "Paragraf"
+  alt_konu: "Öznel-Nesnel"
+  text_required: true
+  min_words: 100
+  max_words: 180
+  highlight_required: false
+  numbered_sentences: false
+  allowed_question_roots:
+    - "Bu parçada öznel yargı içeren cümle hangisidir?"
+    - "Aşağıdaki cümlelerin hangisi öznel bir yargı içermektedir?"
+    - "Metinde nesnel bilgi veren cümle hangisidir?"
+
+paragraf_anlatim_bicimi:
+  topic_family: "Paragraf"
+  alt_konu: "Anlatım Biçimi"
+  text_required: true
+  min_words: 120
+  max_words: 200
+  highlight_required: false
+  numbered_sentences: false
+  allowed_question_roots:
+    - "Bu parçanın anlatım biçimi aşağıdakilerden hangisidir?"
+    - "Bu parçada hangi anlatım biçimi kullanılmıştır?"
+
+# ============================================
+# CÜMLEDE ANLAM SORULARI
+# ============================================
+
+cumlede_anlam_sebep_sonuc:
+  topic_family: "Cümlede Anlam"
+  alt_konu: "Sebep-Sonuç"
+  text_required: true
+  min_words: 80
+  max_words: 150
+  highlight_required: false
+  numbered_sentences: false
+  allowed_question_roots:
+    - "Bu parçaya göre [durumun] nedeni aşağıdakilerden hangisidir?"
+    - "[Olayın] sonucu nedir?"
+    - "Metne göre [X] olmasının sebebi ne olabilir?"
+
+cumlede_anlam_kosul:
+  topic_family: "Cümlede Anlam"
+  alt_konu: "Koşul"
+  text_required: true
+  min_words: 50
+  max_words: 120
+  highlight_required: false
+  numbered_sentences: true  # Numaralı cümleler KULLAN
+  allowed_question_roots:
+    - "Aşağıdaki cümlelerin hangisinde koşul anlamı vardır?"
+    - "Hangi cümlede şart ifadesi kullanılmıştır?"
+
+cumlede_anlam_oznel_nesnel:
+  topic_family: "Cümlede Anlam"
+  alt_konu: "Öznel-Nesnel"
+  text_required: true
+  min_words: 50
+  max_words: 100
+  highlight_required: false
+  numbered_sentences: true  # 4-5 numaralı cümle
+  allowed_question_roots:
+    - "Aşağıdaki cümlelerin hangisi öznel yargı içermektedir?"
+    - "Hangi cümlede nesnel bir bilgi verilmiştir?"
+
+cumlede_anlam_deyim:
+  topic_family: "Cümlede Anlam"
+  alt_konu: "Deyim"
+  text_required: true
+  min_words: 80
+  max_words: 150
+  highlight_required: false
+  numbered_sentences: false
+  allowed_question_roots:
+    - "Bu parçada geçen '[deyim]' deyiminin anlamı aşağıdakilerden hangisidir?"
+    - "Metinde kullanılan deyim hangi anlama gelmektedir?"
+    - "Aşağıdaki cümlelerin hangisinde deyim kullanılmıştır?"
+
+# ============================================
+# SÖZCÜKTE ANLAM SORULARI
+# ============================================
+
+sozcukte_anlam_cok_anlamlilik:
+  topic_family: "Sözcükte Anlam"
+  alt_konu: "Çok Anlamlılık"
+  text_required: true
+  min_words: 40
+  max_words: 80
+  highlight_required: true
+  highlight_format: "tırnak"  # "göz" şeklinde
+  numbered_sentences: true  # I. II. III. IV. formatı ZORUNLU
+  sentence_count: 4  # Tam 4 cümle
+  allowed_question_roots:
+    - "Aşağıdaki cümlelerin hangisinde '{word}' sözcüğü farklı anlamda kullanılmıştır?"
+    - "Hangi cümlede '{word}' sözcüğü, diğerlerinden farklı bir anlam taşımaktadır?"
+
+# ============================================
+# DİL BİLGİSİ SORULARI
+# ============================================
+
+dil_bilgisi_fiilimsiler:
+  topic_family: "Dil Bilgisi"
+  alt_konu: "Fiilimsiler"
+  text_required: true
+  min_words: 100
+  max_words: 180
+  highlight_required: false
+  numbered_sentences: false
+  allowed_question_roots:
+    - "Bu parçada kaç tane fiilimsi kullanılmıştır?"
+    - "Aşağıdaki cümlelerin hangisinde fiilimsi yoktur?"
+    - "Metinde kullanılan fiilimsilerden biri aşağıdakilerden hangisidir?"
+
+# ============================================
+# YAZIM VE NOKTALAMA SORULARI
+# ============================================
+
+yazim_noktalama_noktalama:
+  topic_family: "Yazım Kuralları"
+  alt_konu: "Noktalama"
+  text_required: true
+  min_words: 80
+  max_words: 150
+  highlight_required: false
+  numbered_sentences: false
+  allowed_question_roots:
+    - "Bu parçada virgülün kullanım amacı aşağıdakilerden hangisidir?"
+    - "Aşağıdaki cümlelerin hangisinde noktalama yanlışı vardır?"
+    - "Metinde tırnak işaretinin kullanılma nedeni nedir?"
+
+yazim_noktalama_yazim_yanlisi:
+  topic_family: "Yazım Kuralları"
+  alt_konu: "Yazım Yanlışı"
+  text_required: true
+  min_words: 60
+  max_words: 120
+  highlight_required: false
+  numbered_sentences: true  # 4-5 cümle, biri hatalı
+  allowed_question_roots:
+    - "Aşağıdaki cümlelerin hangisinde yazım yanlışı vardır?"
+    - "Hangi cümlede büyük harf kullanımı yanlıştır?"
+    - "Metinde yazım kuralına uyulmayan kelime hangisidir?"

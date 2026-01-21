@@ -1,0 +1,263 @@
+raw_topic,raw_subtopic,count,topic_family,canonical_subtopic,question_type
+Edebiyat,Edebi Türler,45,Edebiyat ve Soz Sanatlari,Edebiyat - Edebi Turler,edebiyat_edebi_turler
+Paragraf,Ana Düşünce,28,Paragraf,Paragraf - Ana Dusunce,paragraf_ana_dusunce
+Sözcükte Anlam,Çok Anlamlılık,18,Sozcukte Anlam,Sozcukte Anlam - Cok Anlamlilik,sozcukte_anlam_cok_anlamlilik
+Paragraf,Metin İnceleme,17,Paragraf,Paragraf - Diger,paragraf_diger
+Paragraf,Paragrafta Anlam,13,Paragraf,Paragraf - Diger,paragraf_diger
+Sözcükte Anlam,Sözcükte Anlam,11,Sozcukte Anlam,Sozcukte Anlam - Diger,sozcukte_anlam_diger
+Paragraf,Çıkarım,9,Paragraf,Paragraf - Cikarim,paragraf_cikarim
+Paragraf,Anlam Akışı,9,Paragraf,Paragraf - Anlam Akisi,paragraf_anlam_akisi
+Paragraf,Metin Analizi,8,Paragraf,Paragraf - Metin Analizi,paragraf_metin_analizi
+Yazım Kuralları,Yazım Yanlışı,6,Yazim ve Noktalama,Yazim ve Noktalama - Yazim Yanlisi,yazim_ve_noktalama_yazim_yanlisi
+Cümlede Anlam,Cümlede Anlam,5,Cumlede Anlam,Cumlede Anlam - Diger,cumlede_anlam_diger
+Cümlede Anlam,Çıkarım,5,Paragraf,Paragraf - Cikarim,paragraf_cikarim
+Anlatım Teknikleri,Anlatım Teknikleri,5,Paragraf,Paragraf - Anlatim Bicimi/Teknikleri,paragraf_anlatim_bicimi_teknikleri
+Paragraf,Sebep-Sonuç,4,Cumlede Anlam,Cumlede Anlam - Anlam Iliskileri,cumlede_anlam_anlam_iliskileri
+Anlatım Özellikleri,Anlatım Teknikleri,4,Paragraf,Paragraf - Anlatim Bicimi/Teknikleri,paragraf_anlatim_bicimi_teknikleri
+Mantık,Sıralama ve İlişki Kurma,4,Sozel Mantik,Sozel Mantik - Genel,sozel_mantik_genel
+Mantık,İlişki Kurma ve Çıkarım,4,Paragraf,Paragraf - Cikarim,paragraf_cikarim
+Mantık,Grup Oluşturma,4,Sozel Mantik,Sozel Mantik - Genel,sozel_mantik_genel
+Paragraf,Yardımcı Fikir,4,Paragraf,Paragraf - Yardimci Fikir,paragraf_yardimci_fikir
+Sözcükte Anlam,Deyim,4,Sozcukte Anlam,Sozcukte Anlam - Deyim/Atasozi,sozcukte_anlam_deyim_atasozi
+Cümlede Anlam,Cümle Birleştirme,4,Paragraf,Paragraf - Tamamlama/Olusturma/Siralama,paragraf_tamamlama_olusturma_siralama
+Edebiyat,Şiir,4,Edebiyat ve Soz Sanatlari,Edebiyat - Siir,edebiyat_siir
+Cümlede Anlam,Ana Düşünce,4,Paragraf,Paragraf - Ana Dusunce,paragraf_ana_dusunce
+Paragraf,Anlatım Biçimi,4,Paragraf,Paragraf - Anlatim Bicimi/Teknikleri,paragraf_anlatim_bicimi_teknikleri
+Sözcükte Anlam,Sözcük Anlam Çeşitleri,3,Sozcukte Anlam,Sozcukte Anlam - Diger,sozcukte_anlam_diger
+Cümlede Anlam,Cümle Yorumlama,3,Cumlede Anlam,Cumlede Anlam - Cikarim/Yorum,cumlede_anlam_cikarim_yorum
+Paragraf,Cümle Analizi,3,Paragraf,Paragraf - Diger,paragraf_diger
+Anlatım Özellikleri,Anlatım Nitelikleri,3,Paragraf,Paragraf - Diger,paragraf_diger
+Paragraf,Düşünce Akışı,3,Paragraf,Paragraf - Anlam Akisi,paragraf_anlam_akisi
+Paragraf,Paragraf Oluşturma,3,Paragraf,Paragraf - Tamamlama/Olusturma/Siralama,paragraf_tamamlama_olusturma_siralama
+Paragraf,Cümle Sıralama,3,Paragraf,Paragraf - Tamamlama/Olusturma/Siralama,paragraf_tamamlama_olusturma_siralama
+Sözcükte Anlam,Boşluk Doldurma,3,Sozcukte Anlam,Sozcukte Anlam - Bosluk Doldurma/Tanim,sozcukte_anlam_bosluk_doldurma_tanim
+Paragraf,Şiir Analizi,3,Edebiyat ve Soz Sanatlari,Edebiyat - Siir,edebiyat_siir
+Edebiyat,Eleştiri,3,Edebiyat ve Soz Sanatlari,Edebiyat - Diger,edebiyat_diger
+Sözcükte Anlam,Deyim ve Atasözü,3,Sozcukte Anlam,Sozcukte Anlam - Deyim/Atasozi,sozcukte_anlam_deyim_atasozi
+Dil Bilgisi,Fiilimsiler,3,Dil Bilgisi,Dil Bilgisi - Fiilimsiler,dil_bilgisi_fiilimsiler
+Paragraf,Cümle Sıralaması,3,Paragraf,Paragraf - Tamamlama/Olusturma/Siralama,paragraf_tamamlama_olusturma_siralama
+Söz Sanatları,Söz Sanatı Türleri,3,Edebiyat ve Soz Sanatlari,Soz Sanatlari - Genel,soz_sanatlari_genel
+Söz Sanatları,Deyimlerin Anlamı ve Kullanımı,2,Sozcukte Anlam,Sozcukte Anlam - Deyim/Atasozi,sozcukte_anlam_deyim_atasozi
+Söz Sanatları,Atasözlerinin Anlamı ve Kullanımı,2,Sozcukte Anlam,Sozcukte Anlam - Deyim/Atasozi,sozcukte_anlam_deyim_atasozi
+Söz Sanatları,Kişileştirme ve Abartma,2,Edebiyat ve Soz Sanatlari,Soz Sanatlari - Genel,soz_sanatlari_genel
+Söz Sanatları,Söz Sanatı Çeşitleri,2,Edebiyat ve Soz Sanatlari,Soz Sanatlari - Genel,soz_sanatlari_genel
+Cümlede Anlam,Anlamca Yakın Cümleler,2,Cumlede Anlam,Cumlede Anlam - Anlam Iliskileri,cumlede_anlam_anlam_iliskileri
+Cümlede Anlam,Deyim ve Mecaz Anlam,2,Sozcukte Anlam,Sozcukte Anlam - Deyim/Atasozi,sozcukte_anlam_deyim_atasozi
+Anlatım Özellikleri,Öznel ve Nesnel Anlatım,2,Cumlede Anlam,Cumlede Anlam - Ortulu/Nesnel-Oznel,cumlede_anlam_ortulu_nesnel_oznel
+Anlatım Özellikleri,Açıklık ve Anlam Karışıklığı,2,Paragraf,Paragraf - Diger,paragraf_diger
+Dil Bilgisi,Cümle Oluşturma,2,Cumlede Anlam,Cumlede Anlam - Cumle Birles/ Tamamlama,cumlede_anlam_cumle_birles_tamamlama
+Cümlede Anlam,Amaç-Sonuç ve Neden-Sonuç İlişkileri,2,Cumlede Anlam,Cumlede Anlam - Anlam Iliskileri,cumlede_anlam_anlam_iliskileri
+Cümlede Anlam,Anlamca Çelişen Cümleler,2,Cumlede Anlam,Cumlede Anlam - Anlam Iliskileri,cumlede_anlam_anlam_iliskileri
+Sözcükte Anlam,Eş Sesli Sözcükler,2,Sozcukte Anlam,Sozcukte Anlam - Anlam Iliskileri,sozcukte_anlam_anlam_iliskileri
+Dil Bilgisi,Cümle Türleri,2,Dil Bilgisi,Dil Bilgisi - Cumle Turleri/Kurulusu,dil_bilgisi_cumle_turleri_kurulusu
+Söz Sanatları,Benzetme,2,Edebiyat ve Soz Sanatlari,Soz Sanatlari - Genel,soz_sanatlari_genel
+Mantık,Sıralama,2,Sozel Mantik,Sozel Mantik - Genel,sozel_mantik_genel
+Mantık,Konum İlişkileri,2,Sozel Mantik,Sozel Mantik - Genel,sozel_mantik_genel
+Anlatım Teknikleri,Anlatım Biçimi,2,Paragraf,Paragraf - Anlatim Bicimi/Teknikleri,paragraf_anlatim_bicimi_teknikleri
+Anlatım Teknikleri,Anlatım Biçimleri ve Düşünceyi Geliştirme Yolları,2,Paragraf,Paragraf - Diger,paragraf_diger
+Paragraf,Metin Yorumlama,2,Cumlede Anlam,Cumlede Anlam - Cikarim/Yorum,cumlede_anlam_cikarim_yorum
+Dil Bilgisi,Sıfat-Fiil,2,Dil Bilgisi,Dil Bilgisi - Fiilimsiler,dil_bilgisi_fiilimsiler
+Yazım Kuralları,Yazım Yanlışları,2,Yazim ve Noktalama,Yazim ve Noktalama - Yazim Yanlisi,yazim_ve_noktalama_yazim_yanlisi
+Deyim,Deyim Anlamı,2,Sozcukte Anlam,Sozcukte Anlam - Deyim/Atasozi,sozcukte_anlam_deyim_atasozi
+Sözcükte Anlam,Sözcükler Arası Anlam İlişkileri,2,Sozcukte Anlam,Sozcukte Anlam - Anlam Iliskileri,sozcukte_anlam_anlam_iliskileri
+Yazım Kuralları,Noktalama,2,Yazim ve Noktalama,Yazim ve Noktalama - Noktalama (Diger),yazim_ve_noktalama_noktalama_diger
+Yazım Kuralları,Yazım Kuralları,2,Yazim ve Noktalama,Yazim ve Noktalama - Yazim Kurallari,yazim_ve_noktalama_yazim_kurallari
+Paragraf,Yardımcı Düşünceler,2,Paragraf,Paragraf - Yardimci Fikir,paragraf_yardimci_fikir
+Paragraf,Paragrafta Yardımcı Düşünceler,2,Paragraf,Paragraf - Yardimci Fikir,paragraf_yardimci_fikir
+Paragraf,Metinler Arası Karşılaştırma,2,Cumlede Anlam,Cumlede Anlam - Anlam Iliskileri,cumlede_anlam_anlam_iliskileri
+Paragraf,Metin Tamamlama,2,Paragraf,Paragraf - Tamamlama/Olusturma/Siralama,paragraf_tamamlama_olusturma_siralama
+Paragraf,Düşüncenin Akışı,2,Paragraf,Paragraf - Diger,paragraf_diger
+Paragraf,Anlatım Teknikleri,2,Paragraf,Paragraf - Anlatim Bicimi/Teknikleri,paragraf_anlatim_bicimi_teknikleri
+Mantık,Sözel Mantık,2,Sozel Mantik,Sozel Mantik - Genel,sozel_mantik_genel
+Noktalama,Virgül,2,Yazim ve Noktalama,Yazim ve Noktalama - Noktalama (Virgul),yazim_ve_noktalama_noktalama_virgul
+Edebiyat,Hikaye,2,Edebiyat ve Soz Sanatlari,Edebiyat - Diger,edebiyat_diger
+Cümlede Anlam,Sebep-Sonuç,2,Cumlede Anlam,Cumlede Anlam - Anlam Iliskileri,cumlede_anlam_anlam_iliskileri
+Söz Sanatları,Söz Sanatlarını Belirleme,2,Edebiyat ve Soz Sanatlari,Soz Sanatlari - Genel,soz_sanatlari_genel
+Paragraf,Yardımcı Düşünce,2,Paragraf,Paragraf - Yardimci Fikir,paragraf_yardimci_fikir
+Görsel,Görsel Yorumlama,2,Cumlede Anlam,Cumlede Anlam - Cikarim/Yorum,cumlede_anlam_cikarim_yorum
+Yazım Kuralları,Bitişik ve Ayrı Yazılan Kelimeler,2,Yazim ve Noktalama,Yazim ve Noktalama - Yazim Kurallari,yazim_ve_noktalama_yazim_kurallari
+Tablo ve Grafik Okuma,Veri Dönüştürme,2,Paragraf,Paragraf - Diger,paragraf_diger
+Paragraf,Paragraf Tamamlama,2,Paragraf,Paragraf - Diger,paragraf_diger
+Dil Bilgisi,Özne,2,Dil Bilgisi,Dil Bilgisi - Cumle Ogeleri,dil_bilgisi_cumle_ogeleri
+Cümlede Anlam,Neden-Sonuç İlişkisi,2,Cumlede Anlam,Cumlede Anlam - Anlam Iliskileri,cumlede_anlam_anlam_iliskileri
+Dil Bilgisi,İsim-Fiil,2,Dil Bilgisi,Dil Bilgisi - Diger,dil_bilgisi_diger
+Sözcükte Anlam,Tanım ve Kullanım,2,Sozcukte Anlam,Sozcukte Anlam - Bosluk Doldurma/Tanim,sozcukte_anlam_bosluk_doldurma_tanim
+Paragraf,Soru–Cevap İlişkisi,2,Paragraf,Paragraf - Diger,paragraf_diger
+Paragraf,Metinde Yer Almayan Bilgi,2,Paragraf,Paragraf - Diger,paragraf_diger
+Paragraf,Metinden Çıkarım,2,Paragraf,Paragraf - Cikarim,paragraf_cikarim
+Paragraf,Cümle Tamamlama,2,Cumlede Anlam,Cumlede Anlam - Cumle Birles/ Tamamlama,cumlede_anlam_cumle_birles_tamamlama
+Edebiyat,Şiir Türleri,2,Edebiyat ve Soz Sanatlari,Edebiyat - Siir,edebiyat_siir
+Paragraf,Mantık,2,Paragraf,Paragraf - Diger,paragraf_diger
+Dil Bilgisi,Cümle Ögeleri,2,Dil Bilgisi,Dil Bilgisi - Cumle Ogeleri,dil_bilgisi_cumle_ogeleri
+Edebiyat,Anlatım Teknikleri,2,Paragraf,Paragraf - Anlatim Bicimi/Teknikleri,paragraf_anlatim_bicimi_teknikleri
+Paragraf,Başlık Bulma,2,Paragraf,Paragraf - Diger,paragraf_diger
+Dil Bilgisi,Kalıcı İsim,2,Dil Bilgisi,Dil Bilgisi - Diger,dil_bilgisi_diger
+Mantık,Sınıflandırma ve Gruplandırma,1,Sozel Mantik,Sozel Mantik - Genel,sozel_mantik_genel
+Mantık,Sıralama ve İlişkilendirme,1,Sozel Mantik,Sozel Mantik - Genel,sozel_mantik_genel
+Mantık,İlişkilendirme ve Eşleştirme,1,Sozel Mantik,Sozel Mantik - Genel,sozel_mantik_genel
+Anlatım Özellikleri,Kişi Anlatımı,1,Paragraf,Paragraf - Diger,paragraf_diger
+Anlatım Özellikleri,Duyu Organları,1,Paragraf,Paragraf - Diger,paragraf_diger
+Anlatım Özellikleri,Anlatım Amaçları ve Teknikleri,1,Paragraf,Paragraf - Diger,paragraf_diger
+Düşünceyi Geliştirme Yolları,Karşılaştırma,1,Cumlede Anlam,Cumlede Anlam - Anlam Iliskileri,cumlede_anlam_anlam_iliskileri
+Düşünceyi Geliştirme Yolları,Düşünceyi Geliştirme Yolları,1,Paragraf,Paragraf - Diger,paragraf_diger
+Anlatım Özellikleri,Anlatım Biçimi,1,Paragraf,Paragraf - Anlatim Bicimi/Teknikleri,paragraf_anlatim_bicimi_teknikleri
+Anlatım Özellikleri,Yalınlık ve Yoğunluk,1,Paragraf,Paragraf - Diger,paragraf_diger
+Cümlede Anlam,Örtülü Anlam,1,Cumlede Anlam,Cumlede Anlam - Ortulu/Nesnel-Oznel,cumlede_anlam_ortulu_nesnel_oznel
+Söz Sanatları,Deyimlerin Anlamı,1,Sozcukte Anlam,Sozcukte Anlam - Deyim/Atasozi,sozcukte_anlam_deyim_atasozi
+Cümlede Anlam,Cümle Tamamlama,1,Cumlede Anlam,Cumlede Anlam - Cumle Birles/ Tamamlama,cumlede_anlam_cumle_birles_tamamlama
+Söz Sanatları,Deyimlerin Mecazlı Kullanımı,1,Sozcukte Anlam,Sozcukte Anlam - Deyim/Atasozi,sozcukte_anlam_deyim_atasozi
+Paragraf,Anlam İlişkileri,1,Paragraf,Paragraf - Diger,paragraf_diger
+Sözcükte Anlam,Mecazlı Kullanım,1,Sozcukte Anlam,Sozcukte Anlam - Anlam Iliskileri,sozcukte_anlam_anlam_iliskileri
+Sözcükte Anlam,İkilemelerin Anlamı,1,Sozcukte Anlam,Sozcukte Anlam - Diger,sozcukte_anlam_diger
+Anlatım Teknikleri,Anlatım Özellikleri,1,Paragraf,Paragraf - Diger,paragraf_diger
+Sözel Mantık,Harf Dizilerinde Örüntü,1,Sozel Mantik,Sozel Mantik - Genel,sozel_mantik_genel
+Mantık,Şifreleme ve Kodlama,1,Sozel Mantik,Sozel Mantik - Genel,sozel_mantik_genel
+Mantık,Sıralama ve Zaman Planlama,1,Sozel Mantik,Sozel Mantik - Genel,sozel_mantik_genel
+Mantık,Dağıtım ve Ortak Özellik,1,Sozel Mantik,Sozel Mantik - Genel,sozel_mantik_genel
+Mantık,Yerleştirme ve Sıralama,1,Sozel Mantik,Sozel Mantik - Genel,sozel_mantik_genel
+Mantık,Eşleştirme ve Çıkarım,1,Paragraf,Paragraf - Cikarim,paragraf_cikarim
+Mantık,Sıralama ve Konum,1,Sozel Mantik,Sozel Mantik - Genel,sozel_mantik_genel
+Paragraf,Ana Düşünce ve Soru-Cevap İlişkisi,1,Paragraf,Paragraf - Ana Dusunce,paragraf_ana_dusunce
+Düşünceyi Geliştirme Yolları,Örnekleme,1,Paragraf,Paragraf - Diger,paragraf_diger
+Paragraf,Cümle Tamamlama ve Bağlantı,1,Cumlede Anlam,Cumlede Anlam - Cumle Birles/ Tamamlama,cumlede_anlam_cumle_birles_tamamlama
+Paragraf,Paragraf Yorumlama,1,Cumlede Anlam,Cumlede Anlam - Cikarim/Yorum,cumlede_anlam_cikarim_yorum
+Paragraf,Ana Düşünce ve Karşılaştırma,1,Paragraf,Paragraf - Ana Dusunce,paragraf_ana_dusunce
+Edebî Sanatlar,Kişileştirme,1,Edebiyat ve Soz Sanatlari,Soz Sanatlari - Genel,soz_sanatlari_genel
+Anlatım Türleri,Açıklayıcı Anlatım,1,Paragraf,Paragraf - Diger,paragraf_diger
+Dil Bilgisi,Çıkarım,1,Paragraf,Paragraf - Cikarim,paragraf_cikarim
+Dil Bilgisi,Cümle Birleştirme,1,Paragraf,Paragraf - Tamamlama/Olusturma/Siralama,paragraf_tamamlama_olusturma_siralama
+Anlatım Bozukluğu,Yer Tamlayıcısı Eksikliği,1,Dil Bilgisi,Dil Bilgisi - Cumle Ogeleri,dil_bilgisi_cumle_ogeleri
+Dil Bilgisi,Cümle Anlamı,1,Cumlede Anlam,Cumlede Anlam - Cikarim/Yorum,cumlede_anlam_cikarim_yorum
+Paragraf,Paragraf,1,Paragraf,Paragraf - Diger,paragraf_diger
+Cümle Ögeleri,Öge Dizilişi,1,Cumlede Anlam,Cumlede Anlam - Diger,cumlede_anlam_diger
+Noktalama,Noktalama,1,Yazim ve Noktalama,Yazim ve Noktalama - Noktalama (Diger),yazim_ve_noktalama_noktalama_diger
+Cümlede Anlam,Cümle Anlamı,1,Cumlede Anlam,Cumlede Anlam - Cikarim/Yorum,cumlede_anlam_cikarim_yorum
+Şiir Bilgisi,Şiir Özellikleri,1,Edebiyat ve Soz Sanatlari,Edebiyat - Siir,edebiyat_siir
+Anlatım Türleri,Düşünceyi Geliştirme Yolları,1,Paragraf,Paragraf - Diger,paragraf_diger
+Edebiyat,Metin Türleri,1,Edebiyat ve Soz Sanatlari,Edebiyat - Edebi Turler,edebiyat_edebi_turler
+Dil Bilgisi,Fiilde Çatı,1,Dil Bilgisi,Dil Bilgisi - Cumle Turleri/Kurulusu,dil_bilgisi_cumle_turleri_kurulusu
+Paragraf,Cümle Analizi / Metin Yorumlama,1,Cumlede Anlam,Cumlede Anlam - Cikarim/Yorum,cumlede_anlam_cikarim_yorum
+Paragraf,Metin İçi Göndermeler,1,Paragraf,Paragraf - Diger,paragraf_diger
+Paragraf,Metinle Başlık İlişkisi,1,Paragraf,Paragraf - Diger,paragraf_diger
+Paragraf,Akışı Bozan Cümle / Cümle Yerleştirme,1,Paragraf,Paragraf - Diger,paragraf_diger
+Sözcükte Anlam,Atasözleri ve Deyimler,1,Sozcukte Anlam,Sozcukte Anlam - Deyim/Atasozi,sozcukte_anlam_deyim_atasozi
+Yazım Kuralları,Noktalama İşaretleri (Virgül),1,Yazim ve Noktalama,Yazim ve Noktalama - Noktalama (Virgul),yazim_ve_noktalama_noktalama_virgul
+Dil Bilgisi,Yüklem,1,Dil Bilgisi,Dil Bilgisi - Cumle Ogeleri,dil_bilgisi_cumle_ogeleri
+Cümlede Anlam,Cümle Yorumlama / Anlatılmak İstenen,1,Cumlede Anlam,Cumlede Anlam - Cikarim/Yorum,cumlede_anlam_cikarim_yorum
+Paragraf,Cümleler Arası Anlam İlişkileri,1,Paragraf,Paragraf - Diger,paragraf_diger
+Paragraf,Metin Analizi / Öncüllü Sorular,1,Paragraf,Paragraf - Metin Analizi,paragraf_metin_analizi
+Paragraf,Metin Tamamlama / Atasözleri ve Özdeyişler,1,Paragraf,Paragraf - Tamamlama/Olusturma/Siralama,paragraf_tamamlama_olusturma_siralama
+Sözcük Türleri,Eylemsiler (Fiilimsiler),1,Dil Bilgisi,Dil Bilgisi - Fiilimsiler,dil_bilgisi_fiilimsiler
+Sözcükte Anlam,Deyimler ve Kalıplaşmış Sözler,1,Sozcukte Anlam,Sozcukte Anlam - Deyim/Atasozi,sozcukte_anlam_deyim_atasozi
+Söz Sanatları ve Metin Türleri,Şiirde Anlam ve Sanatlar,1,Edebiyat ve Soz Sanatlari,Edebiyat - Siir,edebiyat_siir
+Paragraf,Geçiş ve Bağlantı İfadeleri,1,Paragraf,Paragraf - Diger,paragraf_diger
+Paragraf,Metinde Yardımcı Düşünceler / Neden-Sonuç İlişkisi,1,Paragraf,Paragraf - Yardimci Fikir,paragraf_yardimci_fikir
+Paragraf,Metinden Çıkarım Yapma / Yardımcı Düşünceler,1,Paragraf,Paragraf - Yardimci Fikir,paragraf_yardimci_fikir
+Fiiller,"Fiillerde Anlam (İş, Oluş, Durum)",1,Paragraf,Paragraf - Diger,paragraf_diger
+Dil Bilgisi,Sıfat-Fiiller / Kalıcı İsimler,1,Dil Bilgisi,Dil Bilgisi - Fiilimsiler,dil_bilgisi_fiilimsiler
+Sözcükte Anlam,Deyimler ve Kalıplaşmış Söz Öbekleri,1,Sozcukte Anlam,Sozcukte Anlam - Deyim/Atasozi,sozcukte_anlam_deyim_atasozi
+Paragraf,Anlatım Teknikleri ve Metnin Dili,1,Paragraf,Paragraf - Anlatim Bicimi/Teknikleri,paragraf_anlatim_bicimi_teknikleri
+Yazım Kuralları,Noktalama İşaretleri (Kesme İşareti),1,Yazim ve Noktalama,Yazim ve Noktalama - Noktalama (Diger),yazim_ve_noktalama_noktalama_diger
+Dil Bilgisi,Zarf-Fiiller (Bağ-Fiil / Ulaç),1,Dil Bilgisi,Dil Bilgisi - Fiilimsiler,dil_bilgisi_fiilimsiler
+Edebiyat,Metin Türlerinin Özellikleri,1,Edebiyat ve Soz Sanatlari,Edebiyat - Edebi Turler,edebiyat_edebi_turler
+Paragraf,Cümlede Anlam İlişkileri ve Kavramlar,1,Paragraf,Paragraf - Diger,paragraf_diger
+Anlatım Teknikleri,Anlatıcı Türleri ve Bakış Açısı,1,Paragraf,Paragraf - Diger,paragraf_diger
+Cümlede Anlam,Nesnel ve Öznel Anlatım,1,Cumlede Anlam,Cumlede Anlam - Ortulu/Nesnel-Oznel,cumlede_anlam_ortulu_nesnel_oznel
+Dil Bilgisi,Nesne,1,Dil Bilgisi,Dil Bilgisi - Cumle Ogeleri,dil_bilgisi_cumle_ogeleri
+Edebî Sanatlar,Söz Sanatları (Benzetme/Kişileştirme),1,Edebiyat ve Soz Sanatlari,Soz Sanatlari - Genel,soz_sanatlari_genel
+Bilinmiyor,Bilinmiyor,1,Paragraf,Paragraf - Diger,paragraf_diger
+Paragraf,Metin Analizi / Dil ve Kültür İlişkisi,1,Paragraf,Paragraf - Metin Analizi,paragraf_metin_analizi
+Dil Bilgisi,Noktalama,1,Yazim ve Noktalama,Yazim ve Noktalama - Noktalama (Diger),yazim_ve_noktalama_noktalama_diger
+Dil Bilgisi,Cümlenin Ögeleri,1,Dil Bilgisi,Dil Bilgisi - Cumle Ogeleri,dil_bilgisi_cumle_ogeleri
+Paragraf,Söz Öbeğinde Anlam / Yardımcı Düşünceler,1,Paragraf,Paragraf - Yardimci Fikir,paragraf_yardimci_fikir
+Paragraf,Paragrafın İçeriği / Bilgi Tarama,1,Paragraf,Paragraf - Diger,paragraf_diger
+Dil Bilgisi,Yer Tamlayıcısı (Dolaylı Tümleç),1,Dil Bilgisi,Dil Bilgisi - Cumle Ogeleri,dil_bilgisi_cumle_ogeleri
+Paragraf,Örneklendirme,1,Paragraf,Paragraf - Diger,paragraf_diger
+Paragraf,Soru-Cevap Uyumu,1,Paragraf,Paragraf - Diger,paragraf_diger
+Paragraf,Sözcükte Anlam,1,Paragraf,Paragraf - Diger,paragraf_diger
+Edebiyat,Deneme,1,Edebiyat ve Soz Sanatlari,Edebiyat - Diger,edebiyat_diger
+Paragraf,Karakter Analizi,1,Paragraf,Paragraf - Diger,paragraf_diger
+Noktalama,Noktalı Virgül,1,Yazim ve Noktalama,Yazim ve Noktalama - Noktalama (Virgul),yazim_ve_noktalama_noktalama_virgul
+Mantık,Şifreleme,1,Sozel Mantik,Sozel Mantik - Genel,sozel_mantik_genel
+Paragraf,Diyalog Tamamlama,1,Paragraf,Paragraf - Diger,paragraf_diger
+Paragraf,Başlık Belirleme,1,Paragraf,Paragraf - Diger,paragraf_diger
+Paragraf,Cümle Yerleştirme,1,Paragraf,Paragraf - Diger,paragraf_diger
+Söz Sanatları,Kişileştirme ve Karşıtlık,1,Cumlede Anlam,Cumlede Anlam - Anlam Iliskileri,cumlede_anlam_anlam_iliskileri
+Dil Bilgisi,Dil Bilgisi,1,Dil Bilgisi,Dil Bilgisi - Diger,dil_bilgisi_diger
+Edebiyat,Roman,1,Edebiyat ve Soz Sanatlari,Edebiyat - Diger,edebiyat_diger
+Görsel,Bilgilendirici Görsel,1,Sozel Mantik,Sozel Mantik - Genel,sozel_mantik_genel
+Parçada Anlam,Bilgiye Ulaşma,1,Paragraf,Paragraf - Diger,paragraf_diger
+Akıl Yürütme,Mantık,1,Paragraf,Paragraf - Diger,paragraf_diger
+Parçada Anlam,Çıkarım,1,Paragraf,Paragraf - Cikarim,paragraf_cikarim
+Cümlede Anlam,Amaç-Sonuç,1,Cumlede Anlam,Cumlede Anlam - Anlam Iliskileri,cumlede_anlam_anlam_iliskileri
+Cümlede Anlam,Yorum,1,Cumlede Anlam,Cumlede Anlam - Cikarim/Yorum,cumlede_anlam_cikarim_yorum
+Cümlede Anlam,Karşılaştırma,1,Cumlede Anlam,Cumlede Anlam - Anlam Iliskileri,cumlede_anlam_anlam_iliskileri
+Sözcükte Anlam,Söz Grupları,1,Sozcukte Anlam,Sozcukte Anlam - Diger,sozcukte_anlam_diger
+Paragraf,Yazarın Özellikleri,1,Paragraf,Paragraf - Diger,paragraf_diger
+Sözcükte Anlam,Bağlamdan Anlam,1,Sozcukte Anlam,Sozcukte Anlam - Anlam Iliskileri,sozcukte_anlam_anlam_iliskileri
+Hikâye Unsurları,Kahraman ve Anlatıcı,1,Paragraf,Paragraf - Diger,paragraf_diger
+Cümlede Anlam,Söz Sanatları / Benzetmeli Anlatım,1,Edebiyat ve Soz Sanatlari,Soz Sanatlari - Genel,soz_sanatlari_genel
+Şiirde Anlam,Duygu ve Tema,1,Paragraf,Paragraf - Diger,paragraf_diger
+Cümlede Anlam,Metinden Çıkarım,1,Paragraf,Paragraf - Cikarim,paragraf_cikarim
+Paragraf,Anlatıcı ve Betimleme,1,Paragraf,Paragraf - Diger,paragraf_diger
+Paragraf,Ana Düşünce ve Çıkarım,1,Paragraf,Paragraf - Ana Dusunce,paragraf_ana_dusunce
+Paragraf,Kavram ve Örnek,1,Paragraf,Paragraf - Diger,paragraf_diger
+Noktalama,Virgül - Noktalı Virgül - İki Nokta - Üç Nokta,1,Yazim ve Noktalama,Yazim ve Noktalama - Noktalama (Virgul),yazim_ve_noktalama_noktalama_virgul
+Paragraf,Anlatım Biçimleri / Düşünceyi Geliştirme Yolları,1,Paragraf,Paragraf - Diger,paragraf_diger
+Paragraf,Ortak Özellik Bulma,1,Paragraf,Paragraf - Diger,paragraf_diger
+Paragraf,Tanım ve Örnek,1,Sozcukte Anlam,Sozcukte Anlam - Bosluk Doldurma/Tanim,sozcukte_anlam_bosluk_doldurma_tanim
+Cümlede/Paragrafta Anlam,Soruya Uygun Cevap,1,Paragraf,Paragraf - Diger,paragraf_diger
+Paragraf,Kavram ve Eşleştirme,1,Sozel Mantik,Sozel Mantik - Genel,sozel_mantik_genel
+Cümlede Anlam,Cümleler Arası Anlam İlişkisi (Çelişki),1,Cumlede Anlam,Cumlede Anlam - Diger,cumlede_anlam_diger
+Paragraf,Sebep-Sonuç / Ana Düşünce,1,Paragraf,Paragraf - Ana Dusunce,paragraf_ana_dusunce
+Paragraf,Soru-Cevap İlişkisi,1,Paragraf,Paragraf - Diger,paragraf_diger
+Yazım Kuralları,Büyük Harflerin Kullanımı (Ay Adları),1,Sozcukte Anlam,Sozcukte Anlam - Bosluk Doldurma/Tanim,sozcukte_anlam_bosluk_doldurma_tanim
+Dil Bilgisi,Cümlenin Ögeleri (Özne),1,Dil Bilgisi,Dil Bilgisi - Cumle Ogeleri,dil_bilgisi_cumle_ogeleri
+Edebiyat,Başlık Belirleme,1,Edebiyat ve Soz Sanatlari,Edebiyat - Diger,edebiyat_diger
+Anlatım Biçimleri,Anlatım Özellikleri,1,Paragraf,Paragraf - Diger,paragraf_diger
+Noktalama,Noktalama Kuralları,1,Yazim ve Noktalama,Yazim ve Noktalama - Noktalama (Diger),yazim_ve_noktalama_noktalama_diger
+Sözcükte Anlam,Yay Ayraçlı Açıklama,1,Sozcukte Anlam,Sozcukte Anlam - Bosluk Doldurma/Tanim,sozcukte_anlam_bosluk_doldurma_tanim
+Paragraf,Ortak Sonuç,1,Paragraf,Paragraf - Diger,paragraf_diger
+Paragraf,Duygu Belirleme,1,Paragraf,Paragraf - Diger,paragraf_diger
+Şiirde Anlam,Yargı–Dize Eşleştirme,1,Sozel Mantik,Sozel Mantik - Genel,sozel_mantik_genel
+Fiilde Çatı,Edilgen Fiil,1,Paragraf,Paragraf - Diger,paragraf_diger
+Noktalama,Virgülün İşlevleri,1,Yazim ve Noktalama,Yazim ve Noktalama - Noktalama (Virgul),yazim_ve_noktalama_noktalama_virgul
+Anlatım Özellikleri,Dil ve Anlatım,1,Paragraf,Paragraf - Diger,paragraf_diger
+Paragraf,Yazarın Tutumu,1,Paragraf,Paragraf - Diger,paragraf_diger
+Paragraf,Sıralama,1,Sozel Mantik,Sozel Mantik - Genel,sozel_mantik_genel
+Sözcükte Anlam,Deyim ve Söz Grupları,1,Sozcukte Anlam,Sozcukte Anlam - Deyim/Atasozi,sozcukte_anlam_deyim_atasozi
+Paragraf,Ana Düşünce ve Yargı,1,Paragraf,Paragraf - Ana Dusunce,paragraf_ana_dusunce
+Paragraf Tamamlama,Anlam Akışı,1,Paragraf,Paragraf - Anlam Akisi,paragraf_anlam_akisi
+Paragraf Bilgisi,Metin Düzenleme,1,Paragraf,Paragraf - Diger,paragraf_diger
+Anlatım Bozuklukları,Çatı Uyumsuzluğu,1,Paragraf,Paragraf - Diger,paragraf_diger
+Noktalama,Noktalama Kullanımı,1,Sozcukte Anlam,Sozcukte Anlam - Bosluk Doldurma/Tanim,sozcukte_anlam_bosluk_doldurma_tanim
+Sözcükte Anlam,İcat ve Keşif Kavramları,1,Sozcukte Anlam,Sozcukte Anlam - Diger,sozcukte_anlam_diger
+Noktalama,Ünlem ve Kesme İşareti,1,Yazim ve Noktalama,Yazim ve Noktalama - Noktalama (Diger),yazim_ve_noktalama_noktalama_diger
+Edebiyat,Tema,1,Edebiyat ve Soz Sanatlari,Edebiyat - Diger,edebiyat_diger
+Edebiyat,Şiir İnceleme,1,Edebiyat ve Soz Sanatlari,Edebiyat - Siir,edebiyat_siir
+Dil Bilgisi,Cümle Çeşitleri,1,Dil Bilgisi,Dil Bilgisi - Diger,dil_bilgisi_diger
+Anlatım Teknikleri,Örnekleme,1,Paragraf,Paragraf - Diger,paragraf_diger
+Edebiyat,Hikâye Türleri,1,Edebiyat ve Soz Sanatlari,Edebiyat - Diger,edebiyat_diger
+Dil Bilgisi,Anlam,1,Dil Bilgisi,Dil Bilgisi - Diger,dil_bilgisi_diger
+Noktalama,Noktalama İşaretleri Kullanımı,1,Sozcukte Anlam,Sozcukte Anlam - Bosluk Doldurma/Tanim,sozcukte_anlam_bosluk_doldurma_tanim
+Paragraf,Tablo/Grafik Okuma,1,Paragraf,Paragraf - Diger,paragraf_diger
+Anlatım Bozuklukları,Kelime Yanlışlığı,1,Paragraf,Paragraf - Diger,paragraf_diger
+Anlatım,Anlatım Özellikleri,1,Paragraf,Paragraf - Diger,paragraf_diger
+Yazım Kuralları,Birleşik Kelime Yazımı,1,Yazim ve Noktalama,Yazim ve Noktalama - Yazim Kurallari,yazim_ve_noktalama_yazim_kurallari
+Anlatım Teknikleri,Diyalog,1,Paragraf,Paragraf - Diger,paragraf_diger
+Paragraf,Duygu,1,Paragraf,Paragraf - Diger,paragraf_diger
+Anlatım,Öznel-Nesnel Anlatım,1,Cumlede Anlam,Cumlede Anlam - Ortulu/Nesnel-Oznel,cumlede_anlam_ortulu_nesnel_oznel
+Cümlede Anlam,Sebep-Sonuç İlişkisi,1,Cumlede Anlam,Cumlede Anlam - Anlam Iliskileri,cumlede_anlam_anlam_iliskileri
+Cümlede Anlam,Deyim,1,Sozcukte Anlam,Sozcukte Anlam - Deyim/Atasozi,sozcukte_anlam_deyim_atasozi
+Cümlede Anlam,Anlam Çıkarma,1,Cumlede Anlam,Cumlede Anlam - Diger,cumlede_anlam_diger
+Cümlede Anlam,Düşüncenin Gelişimi,1,Cumlede Anlam,Cumlede Anlam - Diger,cumlede_anlam_diger
+Paragraf,Paragrafta Ayrıntı,1,Paragraf,Paragraf - Diger,paragraf_diger
+Paragraf,Ana Duygu,1,Paragraf,Paragraf - Diger,paragraf_diger
+Paragraf,Anlatıcı,1,Paragraf,Paragraf - Diger,paragraf_diger
+Paragraf,Çok Anlamlılık,1,Sozcukte Anlam,Sozcukte Anlam - Cok Anlamlilik,sozcukte_anlam_cok_anlamlilik
+Paragraf,Metin Özellikleri,1,Paragraf,Paragraf - Diger,paragraf_diger
+Paragraf,Anlatım Özellikleri,1,Paragraf,Paragraf - Diger,paragraf_diger
+Paragraf,Paragraf Bölme,1,Paragraf,Paragraf - Diger,paragraf_diger
+Dil Bilgisi,Fiilimsi Türleri,1,Dil Bilgisi,Dil Bilgisi - Fiilimsiler,dil_bilgisi_fiilimsiler
+Dil Bilgisi,Adlaşmış Sıfat-Fiil,1,Dil Bilgisi,Dil Bilgisi - Fiilimsiler,dil_bilgisi_fiilimsiler
+Söz Sanatları,Abartma,1,Edebiyat ve Soz Sanatlari,Soz Sanatlari - Genel,soz_sanatlari_genel

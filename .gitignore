@@ -1,0 +1,75 @@
+# API Keys ve Hassas Bilgiler
+.env
+*.key
+*.pem
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Data Files (büyük dosyalar)
+*.pkl
+*.h5
+*.bin
+*.safetensors
+data/archive_data/
+data/odgsm_*.json
+data/odsgm_*.json
+
+# Model Files (çok büyük)
+models/
+*.gguf
+*.ggml
+
+# Archive
+archive/
+colab/archive_notebooks/
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary
+*.tmp
+*.bak
+temp/
+
+# Gemini brain artifacts
+.gemini/

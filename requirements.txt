@@ -1,0 +1,22 @@
+# LGS Soru Tahmin Projesi - Gereksinimler
+
+# Temel
+numpy>=1.21.0
+pandas>=1.3.0
+
+# Embedding & RAG
+sentence-transformers>=2.2.0
+
+# Fine-tuning & Local Inference
+transformers>=4.36.0
+peft>=0.7.0
+bitsandbytes>=0.41.0
+accelerate>=0.25.0
+torch>=2.0.0
+
+# API İstemcileri (opsiyonel)
+google-generativeai>=0.3.0
+groq>=0.4.0
+
+# Diğer
+tqdm>=4.64.0

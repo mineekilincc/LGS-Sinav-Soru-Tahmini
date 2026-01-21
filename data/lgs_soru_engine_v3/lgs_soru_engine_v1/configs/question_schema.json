@@ -1,0 +1,24 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "required": ["text", "stem", "choices", "answer", "question_type", "topic_family", "canonical_subtopic"],
+  "properties": {
+    "text": {"type": "string"},
+    "highlight": {"type": ["string", "null"]},
+    "stem": {"type": "string"},
+    "choices": {
+      "type": "object",
+      "required": ["A", "B", "C", "D"],
+      "properties": {
+        "A": {"type": "string"},
+        "B": {"type": "string"},
+        "C": {"type": "string"},
+        "D": {"type": "string"}
+      }
+    },
+    "answer": {"type": "string", "enum": ["A", "B", "C", "D"]},
+    "topic_family": {"type": "string"},
+    "canonical_subtopic": {"type": "string"},
+    "question_type": {"type": "string"}
+  }
+}

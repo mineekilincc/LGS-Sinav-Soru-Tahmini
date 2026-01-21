@@ -1,0 +1,178 @@
+{
+    "metadata": {
+        "title": "LGS Türkçe Resmi Konu ve Alt Konu Listesi",
+        "source": "MEB 2024-2025 Müfredatı",
+        "last_updated": "2026-01-09",
+        "total_topics": 9,
+        "total_subtopics": 47
+    },
+    "topics": [
+        {
+            "konu_id": 1,
+            "konu_basligi": "Sözcükte Anlam",
+            "aciklama": "Kelimelerin anlamları, çok anlamlılık, eş anlamlılık, zıt anlamlılık, deyimler ve atasözleri",
+            "alt_konular": [
+                "Çok Anlamlılık",
+                "Eş Anlamlılık",
+                "Zıt Anlamlılık",
+                "Gerçek ve Mecaz Anlam",
+                "Deyimler",
+                "Atasözleri",
+                "İkilemeler",
+                "Terim Anlam",
+                "Yan Anlam"
+            ]
+        },
+        {
+            "konu_id": 2,
+            "konu_basligi": "Cümlede Anlam",
+            "aciklama": "Cümle türleri, cümlede anlam ilişkileri, cümle vurgusu",
+            "alt_konular": [
+                "Neden-Sonuç İlişkisi",
+                "Amaç-Sonuç İlişkisi",
+                "Koşul İlişkisi",
+                "Karşılaştırma",
+                "Benzetme",
+                "Zıtlık",
+                "Öznel ve Nesnel Anlatım",
+                "Cümlede Vurgu",
+                "Cümlede Anlam Kayması"
+            ]
+        },
+        {
+            "konu_id": 3,
+            "konu_basligi": "Paragraf",
+            "aciklama": "Paragraf yapısı, ana düşünce, yardımcı düşünce, paragraf türleri",
+            "alt_konular": [
+                "Ana Düşünce",
+                "Yardımcı Düşünce",
+                "Konu",
+                "Başlık Bulma",
+                "Paragraf Tamamlama",
+                "Paragrafta Anlam",
+                "Paragrafta Anlatım Biçimleri",
+                "Paragrafta Düşünceyi Geliştirme Yolları"
+            ]
+        },
+        {
+            "konu_id": 4,
+            "konu_basligi": "Dil Bilgisi",
+            "aciklama": "Fiilimsiler, cümle öğeleri, fiilde çatı, cümle türleri, anlatım bozuklukları",
+            "alt_konular": [
+                "Fiilimsiler (İsim-Fiil, Sıfat-Fiil, Zarf-Fiil)",
+                "Cümlenin Ögeleri",
+                "Fiilde Çatı (Etken-Edilgen-Dönüşlü-İşteş)",
+                "Cümle Türleri",
+                "Anlatım Bozukluğu",
+                "Ek Fiil",
+                "Yapım ve Çekim Ekleri"
+            ]
+        },
+        {
+            "konu_id": 5,
+            "konu_basligi": "Yazım ve Noktalama",
+            "aciklama": "Yazım kuralları, noktalama işaretleri, büyük-küçük harf kullanımı",
+            "alt_konular": [
+                "Noktalama İşaretleri",
+                "Yazım Kuralları",
+                "Büyük Harf Kullanımı",
+                "Kısaltmalar",
+                "Sayıların Yazımı"
+            ]
+        },
+        {
+            "konu_id": 6,
+            "konu_basligi": "Edebiyat",
+            "aciklama": "Edebi türler, edebi sanatlar, şiir inceleme, metin türleri",
+            "alt_konular": [
+                "Edebi Türler",
+                "Edebi Sanatlar",
+                "Şiir İnceleme",
+                "Metin Türleri",
+                "Hikaye Unsurları",
+                "Anlatım Teknikleri"
+            ]
+        },
+        {
+            "konu_id": 7,
+            "konu_basligi": "Mantık",
+            "aciklama": "Akıl yürütme, çıkarım yapma, görsel okuma, grafik yorumlama",
+            "alt_konular": [
+                "Akıl Yürütme",
+                "Çıkarım Yapma",
+                "Görsel Okuma",
+                "Grafik ve Tablo Yorumlama",
+                "Harf ve Sayı Dizileri"
+            ]
+        },
+        {
+            "konu_id": 8,
+            "konu_basligi": "Anlatım Teknikleri",
+            "aciklama": "Düşünceyi geliştirme yolları, anlatım biçimleri, anlatım özellikleri",
+            "alt_konular": [
+                "Tanımlama",
+                "Örneklendirme",
+                "Karşılaştırma",
+                "Benzetme",
+                "Tanık Gösterme",
+                "Sayısal Verilerle Açıklama"
+            ]
+        },
+        {
+            "konu_id": 9,
+            "konu_basligi": "Genel",
+            "aciklama": "Diğer konulara girmeyen genel Türkçe soruları",
+            "alt_konular": [
+                "Genel Türkçe",
+                "Karma Sorular"
+            ]
+        }
+    ],
+    "mapping_rules": {
+        "description": "Eski konu başlıklarının yeni listeye eşlenmesi için kurallar",
+        "rules": [
+            {
+                "eski_konu": "Fiilimsi|Fiilimsiler|Fiiller",
+                "yeni_konu": "Dil Bilgisi",
+                "yeni_alt_konu": "Fiilimsiler (İsim-Fiil, Sıfat-Fiil, Zarf-Fiil)"
+            },
+            {
+                "eski_konu": "Cümle Bilgisi|Cümle Oluşturma|Cümle Türleri",
+                "yeni_konu": "Dil Bilgisi",
+                "yeni_alt_konu": "Cümle Türleri"
+            },
+            {
+                "eski_konu": "Paragrafta Anlam|Paragraf Bilgisi|Okuma|Anlama",
+                "yeni_konu": "Paragraf",
+                "yeni_alt_konu": "Paragrafta Anlam"
+            },
+            {
+                "eski_konu": "Mantık ve Muhakeme|Akıl Yürütme|Görsel Okuma",
+                "yeni_konu": "Mantık",
+                "yeni_alt_konu": "Akıl Yürütme"
+            },
+            {
+                "eski_konu": "Yazım Kuralları|Noktalama İşaretleri",
+                "yeni_konu": "Yazım ve Noktalama",
+                "yeni_alt_konu": "AUTO"
+            },
+            {
+                "eski_konu": "Edebi Türler|Edebiyat Bilgisi|Metin Türleri",
+                "yeni_konu": "Edebiyat",
+                "yeni_alt_konu": "AUTO"
+            }
+        ]
+    },
+    "validation_rules": {
+        "konu_basligi": {
+            "required": true,
+            "type": "string",
+            "must_be_in_list": true
+        },
+        "alt_konu_basligi": {
+            "required": true,
+            "type": "string",
+            "must_match_parent_topic": true
+        }
+    }
+}

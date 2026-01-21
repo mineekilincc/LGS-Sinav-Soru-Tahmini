@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LGS Soru Üretici V3</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            min-height: 100vh;
+            color: #fff;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            text-align: center;
+            color: #a855f7;
+            margin-bottom: 30px;
+        }
+
+        .card {
+            background: rgba(255, 255, 255, 0.08);
+            border-radius: 16px;
+            padding: 24px;
+            margin-bottom: 20px;
+            backdrop-filter: blur(10px);
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 600;
+            color: #a855f7;
+        }
+
+        select {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid rgba(168, 85, 247, 0.3);
+            border-radius: 8px;
+            background: rgba(0, 0, 0, 0.3);
+            color: #fff;
+            font-size: 16px;
+        }
+
+        select:focus {
+            outline: none;
+            border-color: #a855f7;
+        }
+
+        button {
+            width: 100%;
+            padding: 14px;
+            background: linear-gradient(135deg, #a855f7, #6366f1);
+            border: none;
+            border-radius: 8px;
+            color: #fff;
+            font-size: 18px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: transform 0.2s;
+        }
+
+        button:hover {
+            transform: translateY(-2px);
+        }
+
+        button:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+
+        .result {
+            display: none;
+        }
+
+        .result.show {
+            display: block;
+        }
+
+        .badge {
+            display: inline-block;
+            padding: 4px 12px;
+            border-radius: 20px;
+            background: #a855f7;
+            font-size: 12px;
+            margin-left: 8px;
+        }
+
+        .badge.theme {
+            background: #22c55e;
+        }
+
+        .metin-box {
+            background: rgba(0, 0, 0, 0.3);
+            border-left: 4px solid #a855f7;
+            padding: 16px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            line-height: 1.6;
+        }
+
+        .soru-box {
+            font-size: 18px;
+            font-weight: 600;
+            margin-bottom: 20px;
+        }
+
+        .option {
+            background: rgba(0, 0, 0, 0.2);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 8px;
+            padding: 14px;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            transition: all 0.2s;
+        }
+
+        .option:hover {
+            background: rgba(168, 85, 247, 0.1);
+            border-color: rgba(168, 85, 247, 0.3);
+        }
+
+        .option.correct {
+            background: rgba(34, 197, 94, 0.2);
+            border-color: #22c55e;
+        }
+
+        .option-letter {
+            width: 36px;
+            height: 36px;
+            border-radius: 50%;
+            background: #a855f7;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 600;
+            margin-right: 12px;
+            flex-shrink: 0;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 40px;
+        }
+
+        .spinner {
+            width: 40px;
+            height: 40px;
+            border: 3px solid rgba(168, 85, 247, 0.3);
+            border-top-color: #a855f7;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 20px;
+        }
+
+        @keyframes spin {
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
+        .info {
+            text-align: center;
+            color: rgba(255, 255, 255, 0.5);
+            font-size: 14px;
+            margin-top: 20px;
+        }
+
+        .optional-label {
+            color: rgba(255, 255, 255, 0.5);
+            font-size: 12px;
+            margin-left: 8px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>🎯 LGS Soru Üretici V3</h1>
+
+        <div class="card">
+            <div class="form-group">
+                <label>📚 Konu</label>
+                <select id="konu">
+                    {% for konu in konular.keys() %}
+                    <option value="{{ konu }}">{{ konu }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label>📝 Alt Konu</label>
+                <select id="altKonu"></select>
+            </div>
+
+            <div class="form-group">
+                <label>🌍 Farkındalık Konusu <span class="optional-label">(opsiyonel)</span></label>
+                <select id="farkindalik">
+                    <option value="">-- Seçmeyebilirsiniz --</option>
+                    {% for fk in farkindalik_konulari %}
+                    <option value="{{ fk }}">{{ fk }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+
+            <button id="generateBtn" onclick="generateQuestion()">
+                ✨ Soru Üret
+            </button>
+        </div>
+
+        <div id="loading" class="card loading" style="display: none;">
+            <div class="spinner"></div>
+            <p>Soru üretiliyor...</p>
+        </div>
+
+        <div id="result" class="card result">
+            <div style="margin-bottom: 16px;">
+                <span id="resultKonu" class="badge"></span>
+                <span id="resultAltKonu" class="badge" style="background: #6366f1;"></span>
+                <span id="resultFarkindalik" class="badge theme" style="display: none;"></span>
+            </div>
+
+            <h3>METİN</h3>
+            <div id="metin" class="metin-box"></div>
+
+            <h3>SORU</h3>
+            <div id="soru" class="soru-box"></div>
+
+            <div id="options"></div>
+        </div>
+
+        <p class="info">V10 Fine-tune + Smart RAG + Farkındalık Konuları</p>
+    </div>
+
+    <script>
+        const konular = {{ konular | tojson }};
+
+        document.getElementById('konu').addEventListener('change', updateAltKonular);
+
+        function updateAltKonular() {
+            const konu = document.getElementById('konu').value;
+            const altKonuSelect = document.getElementById('altKonu');
+            const altKonular = konular[konu] || [];
+
+            altKonuSelect.innerHTML = altKonular.map(ak =>
+                `<option value="${ak}">${ak}</option>`
+            ).join('');
+        }
+
+        updateAltKonular();
+
+        async function generateQuestion() {
+            const konu = document.getElementById('konu').value;
+            const altKonu = document.getElementById('altKonu').value;
+            const farkindalik = document.getElementById('farkindalik').value || null;
+
+            document.getElementById('loading').style.display = 'block';
+            document.getElementById('result').classList.remove('show');
+            document.getElementById('generateBtn').disabled = true;
+
+            try {
+                const response = await fetch('/api/generate', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ konu, alt_konu: altKonu, farkindalik })
+                });
+
+                const data = await response.json();
+
+                document.getElementById('loading').style.display = 'none';
+                document.getElementById('generateBtn').disabled = false;
+
+                if (data.mode === 'generated' && data.question) {
+                    displayQuestion(data);
+                } else {
+                    alert('Soru üretilemedi. Prompt modunda.');
+                    console.log('Prompt:', data.prompt);
+                }
+            } catch (error) {
+                document.getElementById('loading').style.display = 'none';
+                document.getElementById('generateBtn').disabled = false;
+                alert('Hata: ' + error.message);
+            }
+        }
+
+        function displayQuestion(data) {
+            const q = data.question;
+
+            document.getElementById('resultKonu').textContent = data.konu;
+            document.getElementById('resultAltKonu').textContent = data.alt_konu;
+
+            const fkBadge = document.getElementById('resultFarkindalik');
+            if (data.farkindalik) {
+                fkBadge.textContent = data.farkindalik;
+                fkBadge.style.display = 'inline-block';
+            } else {
+                fkBadge.style.display = 'none';
+            }
+
+            document.getElementById('metin').textContent = q.metin;
+            document.getElementById('soru').textContent = q.soru_koku;
+
+            const options = [
+                { letter: 'A', text: q.sik_a },
+                { letter: 'B', text: q.sik_b },
+                { letter: 'C', text: q.sik_c },
+                { letter: 'D', text: q.sik_d }
+            ];
+
+            document.getElementById('options').innerHTML = options.map(opt => `
+                <div class="option ${opt.letter === q.dogru_cevap ? 'correct' : ''}">
+                    <div class="option-letter">${opt.letter}</div>
+                    <div>${opt.text}</div>
+                </div>
+            `).join('');
+
+            document.getElementById('result').classList.add('show');
+        }
+    </script>
+</body>
+
+</html>

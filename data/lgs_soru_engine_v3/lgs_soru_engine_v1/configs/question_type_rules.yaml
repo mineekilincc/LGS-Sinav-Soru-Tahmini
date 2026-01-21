@@ -1,0 +1,183 @@
+# LGS Soru Motoru - Question Type Contract (v3)
+# Otomatik genisletildi: normalized_merged_v2.jsonl icindeki question_type dagilimina gore
+# Not: Bu sozlesme validator icin. Fine-tune promptlarinda da ayni question_type isimleri kullanilmali.
+
+defaults:
+  reject_if_repetition_loop: true
+  reject_if_text_empty_when_required: true
+  highlight_must_appear_in_text: true
+rules:
+  paragraf_ana_dusunce:
+    topic_family: Paragraf
+    text_required: true
+    min_words: 80
+    max_words: 170
+    min_sentences: 4
+  paragraf_yardimci_fikir:
+    topic_family: Paragraf
+    text_required: true
+    min_words: 80
+    max_words: 170
+    min_sentences: 4
+  paragraf_cikarim:
+    topic_family: Paragraf
+    text_required: true
+    min_words: 80
+    max_words: 180
+    min_sentences: 4
+  paragraf_anlam_akisi:
+    topic_family: Paragraf
+    text_required: true
+    min_words: 80
+    max_words: 180
+    min_sentences: 4
+  paragraf_anlatim_bicimi_teknikleri:
+    topic_family: Paragraf
+    text_required: true
+    min_words: 80
+    max_words: 190
+    min_sentences: 4
+  paragraf_metin_analizi:
+    topic_family: Paragraf
+    text_required: true
+    min_words: 80
+    max_words: 190
+    min_sentences: 4
+  paragraf_tamamlama_olusturma_siralama:
+    topic_family: Paragraf
+    text_required: true
+    min_words: 60
+    max_words: 160
+    min_sentences: 3
+  paragraf_diger:
+    topic_family: Paragraf
+    text_required: true
+    min_words: 70
+    max_words: 180
+    min_sentences: 3
+  cumlede_anlam_anlam_iliskileri:
+    topic_family: Cumlede Anlam
+    text_required: false
+    max_words: 40
+    max_sentences: 2
+  cumlede_anlam_cikarim_yorum:
+    topic_family: Cumlede Anlam
+    text_required: false
+    max_words: 45
+    max_sentences: 3
+  cumlede_anlam_cumle_birles_tamamlama:
+    topic_family: Cumlede Anlam
+    text_required: false
+    max_words: 45
+    max_sentences: 3
+  cumlede_anlam_ortulu_nesnel_oznel:
+    topic_family: Cumlede Anlam
+    text_required: false
+    max_words: 45
+    max_sentences: 3
+  cumlede_anlam_diger:
+    topic_family: Cumlede Anlam
+    text_required: false
+    max_words: 55
+    max_sentences: 4
+  sozcukte_anlam_deyim_atasozi:
+    topic_family: Sozcukte Anlam
+    text_required: false
+    max_words: 35
+    max_sentences: 2
+  sozcukte_anlam_cok_anlamlilik:
+    topic_family: Sozcukte Anlam
+    text_required: false
+    max_words: 40
+    max_sentences: 2
+  sozcukte_anlam_anlam_iliskileri:
+    topic_family: Sozcukte Anlam
+    text_required: false
+    max_words: 35
+    max_sentences: 2
+  sozcukte_anlam_bosluk_doldurma_tanim:
+    topic_family: Sozcukte Anlam
+    text_required: false
+    max_words: 45
+    max_sentences: 3
+  sozcukte_anlam_diger:
+    topic_family: Sozcukte Anlam
+    text_required: false
+    max_words: 55
+    max_sentences: 4
+  yazim_ve_noktalama_yazim_kurallari:
+    topic_family: Yazim ve Noktalama
+    text_required: false
+    max_words: 70
+    max_sentences: 4
+  yazim_ve_noktalama_yazim_yanlisi:
+    topic_family: Yazim ve Noktalama
+    text_required: false
+    max_words: 70
+    max_sentences: 4
+  yazim_ve_noktalama_noktalama_virgul:
+    topic_family: Yazim ve Noktalama
+    text_required: false
+    max_words: 80
+    max_sentences: 5
+  yazim_ve_noktalama_noktalama_diger:
+    topic_family: Yazim ve Noktalama
+    text_required: false
+    max_words: 90
+    max_sentences: 6
+  dil_bilgisi_fiilimsiler:
+    topic_family: Dil Bilgisi
+    text_required: false
+    max_words: 80
+    max_sentences: 5
+  dil_bilgisi_cumle_ogeleri:
+    topic_family: Dil Bilgisi
+    text_required: false
+    max_words: 80
+    max_sentences: 5
+  dil_bilgisi_cumle_turleri_kurulusu:
+    topic_family: Dil Bilgisi
+    text_required: false
+    max_words: 80
+    max_sentences: 5
+  dil_bilgisi_diger:
+    topic_family: Dil Bilgisi
+    text_required: false
+    max_words: 90
+    max_sentences: 6
+  edebiyat_edebi_turler:
+    topic_family: Edebiyat ve Soz Sanatlari
+    text_required: false
+    max_words: 80
+    max_sentences: 5
+  edebiyat_siir:
+    topic_family: Edebiyat ve Soz Sanatlari
+    text_required: false
+    max_words: 120
+    max_sentences: 10
+  edebiyat_diger:
+    topic_family: Edebiyat ve Soz Sanatlari
+    text_required: false
+    max_words: 90
+    max_sentences: 6
+  soz_sanatlari_genel:
+    topic_family: Edebiyat ve Soz Sanatlari
+    text_required: false
+    max_words: 120
+    max_sentences: 10
+  sozel_mantik_genel:
+    topic_family: Sozel Mantik
+    text_required: true
+    min_words: 30
+    max_words: 240
+    min_sentences: 3
+  paragraf_alti_cizili:
+    topic_family: Paragraf
+    text_required: true
+    min_words: 80
+    max_words: 180
+    min_sentences: 4
+    highlight_required: true
+    highlight_mode: underline
+    highlight_min_words: 2
+    highlight_max_words: 12

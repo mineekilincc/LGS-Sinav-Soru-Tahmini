@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LGS Soru Üretim Sistemi</title>
+
+    <!-- Test Font -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Source+Serif+4:wght@300;400;600&display=swap"
+        rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: 350px 1fr;
+            gap: 24px;
+            align-items: start;
+        }
+
+        /* SIDEBAR */
+        .sidebar {
+            background: white;
+            border-radius: 20px;
+            padding: 28px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15);
+            position: sticky;
+            top: 20px;
+        }
+
+        .header {
+            margin-bottom: 28px;
+            padding-bottom: 20px;
+            border-bottom: 2px solid #f0f0f0;
+        }
+
+        .header h1 {
+            font-size: 26px;
+            font-weight: 700;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 8px;
+        }
+
+        .header p {
+            font-size: 14px;
+            color: #718096;
+        }
+
+        .form-group {
+            margin-bottom: 22px;
+        }
+
+        .form-group label {
+            display: block;
+            font-size: 14px;
+            font-weight: 600;
+            color: #2d3748;
+            margin-bottom: 10px;
+        }
+
+        .form-select {
+            width: 100%;
+            padding: 14px 18px;
+            font-size: 15px;
+            border: 2px solid #e2e8f0;
+            border-radius: 12px;
+            background: white;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        .form-select:hover {
+            border-color: #667eea;
+            box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+        }
+
+        .form-select:focus {
+            outline: none;
+            border-color: #667eea;
+            box-shadow: 0 0 0 4px rgba(102, 126, 234, 0.15);
+        }
+
+        .btn-primary {
+            width: 100%;
+            padding: 16px;
+            font-size: 16px;
+            font-weight: 600;
+            color: white;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border: none;
+            border-radius: 12px;
+            cursor: pointer;
+            transition: all 0.3s;
+            box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(102, 126, 234, 0.4);
+        }
+
+        .btn-primary:active {
+            transform: translateY(0);
+        }
+
+        .btn-primary:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+            transform: none;
+        }
+
+        .status {
+            margin-top: 18px;
+            padding: 14px;
+            border-radius: 10px;
+            font-size: 14px;
+            text-align: center;
+            font-weight: 500;
+        }
+
+        .status.loading {
+            background: #fef3c7;
+            color: #92400e;
+        }
+
+        /* MAIN - PDF Stil */
+        .question-display {
+            background: white;
+            border-radius: 20px;
+            padding: 50px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15);
+            min-height: 650px;
+        }
+
+        .question-paper {
+            font-family: 'Source Serif 4', 'Merriweather', 'Times New Roman', serif;
+            color: #1a202c;
+            line-height: 1.85;
+        }
+
+        .question-header {
+            text-align: center;
+            margin-bottom: 36px;
+            padding-bottom: 28px;
+            border-bottom: 3px double #e2e8f0;
+        }
+
+        .question-header h2 {
+            font-size: 30px;
+            font-weight: 600;
+            color: #2d3748;
+            margin-bottom: 10px;
+            letter-spacing: -0.5px;
+        }
+
+        .question-header p {
+            font-size: 16px;
+            color: #718096;
+            font-weight: 500;
+        }
+
+        .question-section {
+            margin-bottom: 36px;
+        }
+
+        .question-section-title {
+            font-size: 13px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            color: #667eea;
+            margin-bottom: 18px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #f0f0f0;
+        }
+
+        .question-text {
+            font-size: 18px;
+            line-height: 2;
+            margin-bottom: 28px;
+            text-align: justify;
+            text-indent: 2.5em;
+            color: #2d3748;
+        }
+
+        .question-stem {
+            font-size: 17px;
+            font-weight: 600;
+            margin-bottom: 24px;
+            color: #2d3748;
+            line-height: 1.7;
+        }
+
+        .options-list {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .option-item {
+            padding: 18px 22px;
+            margin-bottom: 14px;
+            border-radius: 12px;
+            background: #f8fafc;
+            border-left: 4px solid #e2e8f0;
+            font-size: 16px;
+            transition: all 0.3s;
+            cursor: default;
+        }
+
+        .option-item:hover {
+            background: #f1f5f9;
+            border-left-color: #667eea;
+            transform: translateX(4px);
+        }
+
+        .option-item.correct {
+            background: #d1fae5;
+            border-left-color: #10b981;
+            box-shadow: 0 4px 12px rgba(16, 185, 129, 0.2);
+        }
+
+        .option-label {
+            font-weight: 700;
+            color: #667eea;
+            margin-right: 14px;
+            font-size: 17px;
+        }
+
+        .option-item.correct .option-label {
+            color: #10b981;
+        }
+
+        .answer-section {
+            margin-top: 36px;
+            text-align: center;
+        }
+
+        .btn-reveal {
+            padding: 14px 32px;
+            font-size: 15px;
+            font-weight: 600;
+            color: white;
+            background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+            border: none;
+            border-radius: 12px;
+            cursor: pointer;
+            transition: all 0.3s;
+            box-shadow: 0 4px 15px rgba(16, 185, 129, 0.3);
+        }
+
+        .btn-reveal:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(16, 185, 129, 0.4);
+        }
+
+        .btn-reveal:active {
+            transform: translateY(0);
+        }
+
+        .correct-answer-display {
+            display: none;
+            margin-top: 24px;
+            padding: 24px;
+            background: linear-gradient(135deg, #d1fae5 0%, #a7f3d0 100%);
+            border-left: 5px solid #10b981;
+            border-radius: 12px;
+            animation: slideDown 0.4s ease;
+        }
+
+        @keyframes slideDown {
+            from {
+                opacity: 0;
+                transform: translateY(-10px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .correct-answer-display.show {
+            display: block;
+        }
+
+        .correct-answer-label {
+            font-size: 13px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            color: #065f46;
+            margin-bottom: 10px;
+        }
+
+        .correct-answer-value {
+            font-size: 28px;
+            font-weight: 700;
+            color: #10b981;
+        }
+
+        .empty-state {
+            text-align: center;
+            padding: 100px 40px;
+        }
+
+        .empty-state-icon {
+            font-size: 72px;
+            margin-bottom: 20px;
+            opacity: 0.8;
+        }
+
+        .empty-state-title {
+            font-size: 26px;
+            font-weight: 600;
+            color: #2d3748;
+            margin-bottom: 10px;
+        }
+
+        .empty-state-text {
+            font-size: 16px;
+            color: #718096;
+            line-height: 1.6;
+        }
+
+        @media (max-width: 1024px) {
+            .container {
+                grid-template-columns: 1fr;
+            }
+
+            .sidebar {
+                position: relative;
+                top: 0;
+            }
+        }
+
+        @media print {
+            body {
+                background: white;
+                padding: 0;
+            }
+
+            .sidebar,
+            .btn-reveal {
+                display: none;
+            }
+
+            .question-display {
+                box-shadow: none;
+                padding: 0;
+            }
+
+            .correct-answer-display {
+                display: block !important;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <!-- SIDEBAR -->
+        <div class="sidebar">
+            <div class="header">
+                <h1>LGS Soru Üretim</h1>
+                <p>AI destekli soru hazırlama</p>
+            </div>
+
+            <form id="generateForm">
+                <div class="form-group">
+                    <label for="konu">Konu</label>
+                    <select id="konu" class="form-select" required>
+                        {% for konu in konular.keys() %}
+                        <option value="{{ konu }}">{{ konu }}</option>
+                        {% endfor %}
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="alt_konu">Alt Konu</label>
+                    <select id="alt_konu" class="form-select" required>
+                        <!-- Dinamik yüklenecek -->
+                    </select>
+                </div>
+
+                <button type="submit" class="btn-primary" id="generateBtn">
+                    Soru Üret
+                </button>
+
+                <div id="status" class="status" style="display:none;"></div>
+            </form>
+        </div>
+
+        <!-- MAIN -->
+        <div class="question-display">
+            <div id="questionContainer" class="question-paper">
+                <div class="empty-state">
+                    <div class="empty-state-icon">📝</div>
+                    <h3 class="empty-state-title">Soru Hazır Değil</h3>
+                    <p class="empty-state-text">Konu ve alt konu seçerek<br>soru üretmeye başlayın</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const konular = {{ konular| tojson }};
+        let currentCorrectAnswer = null;
+
+        // Alt konu yükleme
+        document.getElementById('konu').addEventListener('change', function () {
+            const konu = this.value;
+            const altKonuSelect = document.getElementById('alt_konu');
+            altKonuSelect.innerHTML = '';
+
+            fetch(`/api/alt-konular/${konu}`)
+                .then(r => r.json())
+                .then(altKonular => {
+                    altKonular.forEach(ak => {
+                        const option = document.createElement('option');
+                        option.value = ak;
+                        option.textContent = ak;
+                        altKonuSelect.appendChild(option);
+                    });
+                });
+        });
+
+        // İlk yükleme
+        document.getElementById('konu').dispatchEvent(new Event('change'));
+
+        // Form gönderimi
+        document.getElementById('generateForm').addEventListener('submit', async function (e) {
+            e.preventDefault();
+
+            const btn = document.getElementById('generateBtn');
+            const status = document.getElementById('status');
+            const container = document.getElementById('questionContainer');
+
+            const konu = document.getElementById('konu').value;
+            const alt_konu = document.getElementById('alt_konu').value;
+
+            // Loading state
+            btn.disabled = true;
+            btn.textContent = 'Üretiliyor...';
+            status.style.display = 'block';
+            status.className = 'status loading';
+            status.textContent = 'Soru üretiliyor, lütfen bekleyin...';
+
+            try {
+                const response = await fetch('/api/generate', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ konu, alt_konu })
+                });
+
+                const data = await response.json();
+
+                if (data.success && data.question) {
+                    displayQuestion(data.question, konu, alt_konu);
+                    status.style.display = 'none';
+                } else {
+                    status.className = 'status error';
+                    status.textContent = 'Hata: ' + (data.error || 'Bilinmeyen hata');
+                }
+            } catch (error) {
+                status.className = 'status error';
+                status.textContent = 'Bağlantı hatası: ' + error.message;
+            } finally {
+                btn.disabled = false;
+                btn.textContent = 'Soru Üret';
+            }
+        });
+
+        function displayQuestion(q, konu, alt_konu) {
+            const container = document.getElementById('questionContainer');
+            currentCorrectAnswer = q.dogru_cevap;
+
+            container.innerHTML = `
+                <div class="question-header">
+                    <h2>LGS Türkçe Sorusu</h2>
+                    <p>${konu} → ${alt_konu}</p>
+                </div>
+
+                ${q.metin ? `
+                <div class="question-section">
+                    <div class="question-section-title">Metin</div>
+                    <p class="question-text">${q.metin}</p>
+                </div>
+                ` : ''}
+
+                <div class="question-section">
+                    <div class="question-section-title">Soru</div>
+                    <p class="question-stem">${q.soru || q.soru_koku}</p>
+                    
+                    <ul class="options-list">
+                        <li class="option-item" data-option="A">
+                            <span class="option-label">A)</span>
+                            ${q.sik_a}
+                        </li>
+                        <li class="option-item" data-option="B">
+                            <span class="option-label">B)</span>
+                            ${q.sik_b}
+                        </li>
+                        <li class="option-item" data-option="C">
+                            <span class="option-label">C)</span>
+                            ${q.sik_c}
+                        </li>
+                        <li class="option-item" data-option="D">
+                            <span class="option-label">D)</span>
+                            ${q.sik_d}
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="answer-section">
+                    <button class="btn-reveal" onclick="revealAnswer()">
+                        Cevabı Göster
+                    </button>
+                    
+                    <div class="correct-answer-display" id="answerDisplay">
+                        <div class="correct-answer-label">Doğru Cevap</div>
+                        <div class="correct-answer-value">${q.dogru_cevap}</div>
+                    </div>
+                </div>
+            `;
+        }
+
+        function revealAnswer() {
+            const answerDisplay = document.getElementById('answerDisplay');
+            const btn = event.target;
+            const options = document.querySelectorAll('.option-item');
+
+            // Toggle visibility
+            if (answerDisplay.classList.contains('show')) {
+                // Hide answer
+                answerDisplay.classList.remove('show');
+                btn.textContent = 'Cevabı Göster';
+
+                // Remove highlight from options
+                options.forEach(opt => opt.classList.remove('correct'));
+            } else {
+                // Show answer
+                answerDisplay.classList.add('show');
+                btn.textContent = 'Cevabı Gizle';
+
+                // Highlight correct option
+                options.forEach(opt => {
+                    if (opt.dataset.option === currentCorrectAnswer) {
+                        opt.classList.add('correct');
+                    }
+                });
+            }
+        }
+    </script>
+</body>
+
+</html>

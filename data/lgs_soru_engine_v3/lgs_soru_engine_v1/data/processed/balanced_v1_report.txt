@@ -1,0 +1,46 @@
+SEED=42 MIN_COUNT=15 TARGET_COUNT=20
+
+Original rows: 544
+Original subtopics: 31
+Eligible subtopics (>= 15): 12
+Balanced rows (pre-split): 228
+
+Balanced counts by canonical_subtopic:
+  Cumlede Anlam - Anlam Iliskileri: 20
+  Edebiyat - Edebi Turler: 20
+  Paragraf - Ana Dusunce: 20
+  Paragraf - Anlatim Bicimi/Teknikleri: 20
+  Paragraf - Cikarim: 20
+  Paragraf - Diger: 20
+  Sozcukte Anlam - Deyim/Atasozi: 20
+  Sozel Mantik - Genel: 20
+  Sozcukte Anlam - Cok Anlamlilik: 19
+  Paragraf - Tamamlama/Olusturma/Siralama: 17
+  Sozcukte Anlam - Diger: 17
+  Soz Sanatlari - Genel: 15
+
+Downsampled:
+  Paragraf - Diger: 113 -> 20
+  Edebiyat - Edebi Turler: 47 -> 20
+  Paragraf - Ana Dusunce: 37 -> 20
+  Sozel Mantik - Genel: 28 -> 20
+  Paragraf - Cikarim: 24 -> 20
+  Sozcukte Anlam - Deyim/Atasozi: 22 -> 20
+  Cumlede Anlam - Anlam Iliskileri: 21 -> 20
+  Paragraf - Anlatim Bicimi/Teknikleri: 21 -> 20
+
+Kept under target (needs augmentation if you want equal counts):
+  Soz Sanatlari - Genel: 15 (needs +5 to reach 20)
+  Paragraf - Tamamlama/Olusturma/Siralama: 17 (needs +3 to reach 20)
+  Sozcukte Anlam - Diger: 17 (needs +3 to reach 20)
+  Sozcukte Anlam - Cok Anlamlilik: 19 (needs +1 to reach 20)
+
+Split sizes:
+  train: 180
+  val:   24
+  test:  24
+
+Coverage check (subtopics present in each split):
+  train: 12 subtopics
+  val: 12 subtopics
+  test: 12 subtopics
